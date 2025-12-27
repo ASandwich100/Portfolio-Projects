@@ -1,0 +1,134 @@
+/* style preset
+style="color: red; background:none; text-align:left; border:none; text-decoration: underline; 
+font-weight:bold; font-size: 30px; ; width: 200px" */
+
+#index {
+    background-color: lightgray;
+
+}
+#titleHead {
+    color: black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+#navColor{
+    border: 5px outset red;
+    background-color:antiquewhite;
+    text-align:center
+}
+
+#navConfig{
+    text-align: center;
+    left:0px;
+    right:0px;
+}
+
+
+
+#optiondrop{
+    border: 2px;
+    fill: white;
+    border-color: black;
+    border-style: solid;
+
+}
+
+#colorSearch{
+    text-align: center;
+}
+
+#colorSearchHead{
+    text-align:center;
+    font-size: 40px;
+    color:black;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#searchBar{
+    width:200px;
+    height:25px;
+    border-style:groove;
+    border-color:black;
+    border-radius:10px;
+    padding:5px;
+}
+
+#colorBox{
+    text-align:center; 
+
+}
+#searchButton{
+    fill:green;
+    border:1px;
+    border-color:white;
+    width:30px;
+    height:35px;
+    border-style:groove;
+}
+
+#colorTextUnder{
+    text-decoration:underline;
+    font-size: 20px;
+    left:0px;
+    right:0px;
+    text-align: center;
+}
+
+#red{
+    background-color:red;
+}
+#blue{
+    background-color:blue;
+}
+#yellow{
+    background-color:yellow;
+}
+#green{
+    background-color:green;
+}
+#orange{
+    background-color:orange;
+}
+#purple{
+    background-color:purple;
+}
+#red-orange{
+    background-color:#ff4b33;
+}
+#yellow-orange{
+    background-color:#ffae42;
+}
+#yellow-green{
+    background-color:#ccff00;
+}
+#blue-green{
+    background-color:#00cec8;
+}
+#blue-violet{
+    background-color:#8a2be2;
+}
+#red-violet{
+    background-color:#a50055;
+}
+#white{
+    background-color:white;
+}
+#gray{
+    background-color:gray;
+}
+#black{
+    background-color:black;
+}
+#brown{
+    background-color:burlywood;
+}
+#pink{
+    background-color:pink;
+}
+
+
+

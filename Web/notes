@@ -1,0 +1,11 @@
+location for new window = ["window.location.href='red.html']
+
+div style = [<script> const box = document.createElement("div"); box.innerText= "This is the color red.";
+    document.body.appendChild(box); </script>]
+
+div class = [<div class="dropdown">
+    <span> Red </span>
+    <div class="dropdown-content">
+        <p> This is the color Red</p>
+    </div>
+</div>]

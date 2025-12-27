@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatibile" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title> Color Window </title>
+ </head>
+ <style>
+.navStyle{
+    fill:white;
+    position:relative;
+    display:inline-block;
+    width: 100%;
+    font-weight:bold;
+    text-align:justify;
+    }
+
+.hr{
+    stroke-width: 10;
+    color: red;
+}
+
+.box{
+    width:100%;
+    height:100%;
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
+    position:relative;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    border-color:white;
+    border-width:2px;
+    width:100%;
+    fill:gainsboro;
+    
+}
+.colorWheelLabel{
+    text-align:center;
+    text-decoration:underline;
+    font-size:20px;
+}
+.colorSquare{
+    width:50px;
+    height:50px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align:center;
+}
+.colorbuttons{
+    display:inline-block;
+    text-align:center;
+    background-color: tan;
+}
+
+
+ </style>
+
+ <body id="index">
+    <header id="titleHead">
+        Learn Your Colors!
+    </header>
+    <hr class="hr">
+    <div id="navConfig">
+        <nav>
+        <div>
+            <button class="colorbutton"> Colors</button>
+            <a href="whiteboard.html">WhiteBoard</a>
+            <a href="colorgames.html"> Color Games</a>
+            <a href="credits.html"> Credits</a>
+        </div>
+
+        </nav>
+    </div>
+    <hr class="hr">
+
+    <main class="main">
+        <table class="center">
+        <tr>
+            <th>
+        <h2> Learn Your Colors - Everywhere.</h2>
+                </th>
+    </tr>
+    </table>
+        <br><br>
+        <div id="colorSearch"> 
+            <label id="colorSearchHead"> Search </label>
+            <br>
+            <label id="colorSearchSubtext"> Search for a Item:</label>
+             <table class="center">
+                <tr>
+                    <th>
+            <form id="search">
+                <input type="text" id="searchBar">
+            </form>
+            </th>
+            <th>
+                <a>
+                <button id="searchButton">
+                    <Search></Search>
+                </button>
+            </a>
+            </th>
+            </tr>
+            </table>
+        </div>
+        <hr>
+
+       
+        <div class="colorbox">
+            <br><br>
+            <table class="center">
+                <tr>
+                    <th> 
+                         <label> Here are the Primary Colors, Secondary Colors, The Light and The Shade, and Other Known Colors. (Each in Order)</label>
+                         <br><br>
+                    </th>
+                </tr>
+                <tr> 
+                    <th>
+                          <label class="colorWheelLabel"> The Primary Colors</label>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label> Red</label>
+                        <br>
+                        
+                        <p> Red is always known as the first color, and is a main primary color that is found everywhere in the world.</p>
+                        <br>
+                        <div class="colorSquare" id="red">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="red.html">
+                                <button class="colorbuttons">
+                                    RED
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                         <label> Blue</label>
+                        <p> Blue is one of the most common colors in our world, found above and below us.</p>
+                        <br>
+                          <div class="colorSquare" id="blue">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="blue.html">
+                                <button class="colorbuttons">
+                                    BLUE
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                         <label> Yellow</label>
+                        <p> Yellow is the third known primary color, and the brightest.</p>
+                        <br>
+                          <div class="colorSquare" id="yellow">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="yellow.html">
+                                <button class="colorbuttons">
+                                    YELLOW
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <br><br>
+         <div class="colorbox">
+            <br><br>
+    
+            <table class="center">
+                <tr>
+                    <th>
+                          <label class="colorWheelLabel"> The Secondary Colors</label>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label> Green</label>
+                        <p> Green is the most common color on the Earth, found outside in Nature.</p>
+                        <br>
+                          <div class="colorSquare" id="green">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="green.html">
+                                <button class="colorbuttons">
+                                    GREEN
+                                </button>
+                            </a>
+                        </label>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                         <label> Orange</label>
+                        <p> Orange (the color) is a secondary color open to many.</p>
+                        <br>
+                          <div class="colorSquare" id="orange">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="blue.html">
+                                <button class="colorbuttons">
+                                    ORANGE
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                         <label> Purple</label>
+                        <p> Purple, or Violet, is the darker of the three Secondary Colors. </p>
+                        <br>
+                          <div class="colorSquare" id="purple">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="purple.html">
+                                <button class="colorbuttons"> 
+                                    PURPLE
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+            </table>
+        </div>
+         <div class="colorbox">
+            <br><br>
+             <table class="center">
+                <tr>
+                    <th> 
+                          <label class="colorWheelLabel"> The Tertiary Colors</label>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label> Red-Orange</label>
+                        <p> Red is always known as the first color, and is a main primary color that is found everywhere in the world.</p>
+                        <br>
+                          <div class="colorSquare" id="red-orange">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="red.html">
+                                <button class="colorbuttons">
+                                    Red-Orange
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                         <label> Yellow-Orange</label>
+                        <p> Blue is one of the most common colors in our world, found above and below us.</p>
+                        <br>
+                          <div class="colorSquare" id="yellow-orange">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="blue.html">
+                                <button class="colorbuttons">
+                                    Yellow-Orange
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                         <label> Yellow-Green</label>
+                        <p> Yellow is the third known primary color, and the brightest.</p>
+                        <br>
+                          <div class="colorSquare" id="yellow-green">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="yellow.html">
+                                <button class="colorbuttons">
+                                    Yellow-Green
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label> Blue-Green</label>
+                        <p> Red is always known as the first color, and is a main primary color that is found everywhere in the world.</p>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="red.html">
+                                <button class="colorbuttons"> 
+                                    Blue-Green
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                         <label> Blue-Violet</label>
+                        <p> Blue is one of the most common colors in our world, found above and below us.</p>
+                        <br>
+                          <div class="colorSquare" id="blue-violet">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="blue.html">
+                                <button class="colorbuttons">
+                                    Blue-Violet
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                         <label> Red Violet </label>
+                        <p> Yellow is the third known primary color, and the brightest.</p>
+                        <br>
+                          <div class="colorSquare" id="red-violet">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="yellow.html">
+                                <button class="colorbuttons">
+                                    Red-Violet
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+            </table>
+        </div>
+         <div class="colorbox">
+            <br><br>
+            <table class="center">
+                <tr> 
+                    <th>
+                          <label class="colorWheelLabel"> Light and Shade</label>
+                    </th>
+                    <tr>
+                        <th>
+                            <p> These are not defined as colors, but can work with any other color to make them lighter or darker, depending on their amount of tint or shade.</p>
+                        </th>
+                    </tr>
+                </tr>
+                <tr>
+                    <th>
+                        <label> White</label>
+                        <p> Red is always known as the first color, and is a main primary color that is found everywhere in the world.</p>
+                        <br>
+                          <div class="colorSquare" id="white">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="red.html">
+                                <button class="colorbuttons">
+                                    WHITE
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                         <label> Gray</label>
+                        <p> Blue is one of the most common colors in our world, found above and below us.</p>
+                        <br>
+                          <div class="colorSquare" id="gray">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="blue.html">
+                                <button class="colorbuttons">
+                                    GRAY
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                         <label> Black</label>
+                        <p> Yellow is the third known primary color, and the brightest.</p>
+                        <br>
+                          <div class="colorSquare" id="black">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="yellow.html">
+                                <button class="colorbuttons">
+                                    BLACK
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <br><br>
+        <div class="colorbox">
+            <br><br>
+            <table class="center">
+                <tr> 
+                    <th>
+                          <label class="colorWheelLabel"> Other Known Colors</label>
+                    </th>
+                    <tr>
+                        <th>
+                            <p> These are colors that people mainly know, but are not on the main color wheel. These are combinations of both primary and secondary colors, along with some lights or shades.</p>
+                        </th>
+                    </tr>
+                </tr>
+                <tr>
+                    <th>
+                        <label> Brown</label>
+                        <p> Red is always known as the first color, and is a main primary color that is found everywhere in the world.</p>
+                        <br>
+                          <div class="colorSquare" id="brown">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="red.html">
+                                <button class="colorbuttons">
+                                    BROWN
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                         <label> Pink</label>
+                        <p> Blue is one of the most common colors in our world, found above and below us.</p>
+                        <br>
+                          <div class="colorSquare" id="pink">
+                        </div>
+                        <br>
+                        <label> Click Here to Learn More: </label>
+                        <br>
+                            <a href="blue.html">
+                                <button class="colorbuttons">
+                                    PINK
+                                </button>
+                            </a>
+                    </th>
+                </tr>
+            </table>
+        </div>
+         
+
+        <br><br>
+      
+
+        <div>
+            <table>
+
+            </table>
+
+        </div>
+
+
+    </main>
+    
+
+
+
+<footer class="footer">
+    <div>
+<label> Learn Your Colors @2025</label>
+    </div>
+</footer>
+
+ </body>
+
+ </html>
